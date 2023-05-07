@@ -1,0 +1,115 @@
+body {
+    margin: 20px;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.avatar {
+    width: 90px;
+    height: 120px;
+    padding: 2px;
+}
+.avatar-mini{
+    width: 30px;
+    height: 50px;
+    padding: 6px;
+    margin-left: 30px;
+}
+
+.card {
+    width: 450px;
+    margin: 0 auto;
+    padding: 0px;
+    line-height: 1px;
+    background-image: url("images/HBO-Max-Sesame-Street-edited.webp");
+    background-size: 450px;
+    background-position: center bottom;
+    color: #2b2839;
+    border: 6px solid #C0CCCC;
+    border-radius: 15px 15px 10px 10px;
+        
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+}
+.card-top{
+    padding: 1px; 
+    background: #A5968B;
+    display: flex;
+    border-radius: 10px 10px 0 0;
+    font-weight: bold;
+}
+.card-inner
+{
+    padding: 6px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.card-botton{
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    padding-bottom: 5px; 
+    
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
+.datos-main
+{
+    border:none;
+    display: flex;
+    justify-content: space-around;
+}
+.country{
+    display: flex;
+    text-align: center;
+    margin: 1px 2px 2px 2px;
+    font-size: 10px; 
+}
+.id-description{
+    font-size: 8px; 
+}
+.id-subdescription{
+    display:flex;
+    justify-content: space-between;
+}
+
+.id-number{
+    color:red;
+    font-size: 9px;
+    
+}
+.id-cui{
+    color: #2b2839;
+}
+.datos-text{
+    font-size: 9px;
+    text-align: left;
+}
+.dates{
+    border:#2b2839 solid 1px;
+    font-size: 9px;
+    text-align: center;
+    border-collapse: collapse;
+}
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
